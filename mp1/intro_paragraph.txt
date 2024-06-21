@@ -1,0 +1,17 @@
+This can be found in the code. Line 107 but is put here for convenience 
+; NOTE: Intro Paragraph
+; This program prints a histogram by doing the following steps
+; 1. Print the character and a space
+; 2. Get the address of the beginning of the histogram
+; 3. Read value stored at address
+; 4. Get the 4 MSB and store it in another variable
+; 5. Convert the value stored previously and convert it to HEX
+;    5i. Subtract 10 from variable
+;   5ii. Is value >= 0
+;  5iii. Yes? Add offset from "A"
+;   4iv. No? Add 10 then add offset from "0"
+; 6. Loop back to the top
+; Each sections uses registers differently but generally, in this program, R5
+; and R6 are used for subroutine input and outputs. R4 is used as a counter. R0
+; is used for single temp storage and print outputs
+
